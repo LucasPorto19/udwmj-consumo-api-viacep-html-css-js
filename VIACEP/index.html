@@ -1,66 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consumo de Api - ViaCep</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consumo de Api - ViaCep</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
+  <div class="container">
+
     <h1>
-        BUSCADOR DE CEP
+      Buscador de CEP
     </h1>
-  <div class="input-group">
-    <input type="text" id="cepInput" placeholder="Digite o CEP: (Apenas números)" maxlength="8">
-    <button id="searchButton">Buscar</button>
-  </div>
-  <div id="result" class="result-box">
-    <p>
+
+    <div class="input-group">
+      <input type="text" id="cepInput" placeholder="Digite o CEP: (apenas números)" maxlength="8">
+      <button id="searchButton">Buscar</button>
+    </div>
+
+    <div id="result" class="result-box">
+      <p>
         <strong>
-            CEP:
+          CEP:
         </strong>
         <span id="cepResult">
         </span>
-    </p>
-    <p>
+      </p>
+
+      <p>
         <strong>
-            LOGRADOURO:
+          LOGRADOURO:
         </strong>
         <span id="logradouroResult">
         </span>
-    </p>
-    <p>
+      </p>
+
+      <p>
         <strong>
-            BAIRRO:
+          BAIRRO:
         </strong>
         <span id="bairroResult">
         </span>
-    </p>
-    <p>
+      </p>
+
+      <p>
         <strong>
-            LOCALIDADE:
+          CIDADE:
         </strong>
         <span id="localidadeResult">
         </span>
-    </p>
-    <p>
+      </p>
+
+      <p>
         <strong>
-            UF:
+          ESTADO:
         </strong>
         <span id="ufResult">
         </span>
-    </p>
-    <p>
+      </p>
+
+      <p>
         <strong>
-            COMPLEMENTO:
+          COMPLEMENTO:
         </strong>
         <span id="complementoResult">
         </span>
-    </p>
-    <div id="message" class="message-box hidden"></div>
-  </div>
+      </p>
+
+      <div id="message" class="message-box hidden"></div>
     </div>
-  <script src="script.js"></script>  
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
